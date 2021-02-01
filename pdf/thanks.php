@@ -15,7 +15,7 @@
 	<div class="container">
 
 		<h1>Thanks <?php echo $_GET['fname'];?>, your pdf is now generated,
-		<a href="./completed/<?php echo $_GET['link'];?>" download>Download it here</a></h1>
+		<a href="https://pdfgen12.herokuapp.com/completed/<?php echo $_GET['link'];?>" download>Download it here</a></h1>
 			
 		<button type="submit" class="btn btn-block btn-success" style="text-decoration:none; margin-top: 100px; "><a href="index.php">Main Page</a></button>
 
